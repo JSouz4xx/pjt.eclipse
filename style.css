@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #c9b79c;
+    padding: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+header > h1 {
+    padding: 20px 20px 15px 20px;
+    font-size: 4em;
+    color: #2f2f2f;
+    text-align: center;
+    font-family: 'UnifrakturMaguntia', cursive;
+}
+
+nav{
+    text-align: center;
+    margin: 10px;
+}
+
+nav > a{
+    background-color: #2f2f2f;
+    color: #c9b79c;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: "Aladin";
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+main {
+    margin: auto;
+    padding: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 10px 10px;
+}
+
+footer {
+    background-color: #2f2f2f;
+    color: #c9b79c;
+}
